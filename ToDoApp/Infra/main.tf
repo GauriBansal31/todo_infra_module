@@ -1,3 +1,7 @@
+# This Terraform configuration file sets up the infrastructure for the ToDo application on Azure.
+# It creates a resource group, virtual network, subnet, public IP, virtual machine, SQL server, and SQL database.
+
+
 module "rgname" {
   source = "../Modules/azurerm_resource_group"
   resource_group_name = "todogauri"
